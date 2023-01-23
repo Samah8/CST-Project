@@ -1,0 +1,54 @@
+.container {
+    position: relative;
+
+}
+.table{
+    position:absolute;
+    top: 0px;
+    background-color: aliceblue;
+    height: 40px;
+    width: auto;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    width: 100%;
+}
+.table2{
+    padding-left: 420px
+}
+.or:hover{
+ padding: 10px 20px;
+ background-color: #ff3c00;
+ border-radius: 10px;
+ border: 1px solid hsl(0, 2%, 48%);
+
+}
+.intro{
+    position: absolute;
+    color: aliceblue;
+    font-size: 60px;
+    top: 260px;
+    left: 50px;
+    font-weight: 600;
+}
+button{
+  position: absolute;
+  top: 500px;
+  left: 60px;
+  background-color: #ff3c00;
+  padding: 10px 20px;
+  border: 1px solid hsl(0, 2%, 48%);
+  
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: white;
+}

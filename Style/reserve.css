@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color:#ff3c00 ;
+    font-size: 40;
+    font-style: italic;
+    font-family:Comic sans MS;
+    padding-top: 10px;
+}
+.container{
+    position: relative;
+}
+.table1{
+    position: absolute;
+    top: 8;
+    left: 20%;
+}
+input{
+    color: gray;
+    padding:10px 270px 10px 10px;
+}
+select{
+    width: 400px;
+    padding: 10px;
+}
+.buttton{
+    color: #ff3c00;
+    border: 2px solid #ff3c00; 
+    padding: 15px 25px;
+    margin: 25px;
+}

@@ -1,0 +1,64 @@
+.container {
+    position: relative;
+
+}
+
+.table{
+position:absolute;
+top: 0px;
+background-color: aliceblue;
+height: 40px;
+width: auto;
+border-bottom-left-radius: 60px;
+border-bottom-right-radius: 60px;
+width: 100%;
+}
+.table2{
+padding-left: 420px
+}
+.or:hover{
+padding: 10px 20px;
+background-color: #ff3c00;
+border-radius: 10px;
+border: 1px solid hsl(0, 2%, 48%);
+
+}
+
+
+a:link {
+text-decoration: none;
+color: black;
+}
+
+a:visited{
+text-decoration: none;
+color: black;
+}
+a:active {
+text-decoration: none;
+color: white;
+}
+.intro{
+position: absolute;
+color: aliceblue;
+font-size: 50px;
+top: 62%;
+left: 50%;
+font-weight: 400;
+transform: translate(-50%, -50%);
+}
+#Image{
+height: 65%;
+width: auto;
+padding-top: 15px;
+padding-bottom: 60px;
+padding-right: 10px;
+filter: drop-shadow(11px 11px 1px #ff3c00);
+}
+p{
+padding-left: 40px;
+}
+.subtitle{
+font-size: 20px;
+font-weight: 200;
+}

@@ -1,0 +1,54 @@
+<html>
+    <head>
+     <link rel="stylesheet" href="../Style/reserve.css">
+    </head>
+    <body>
+        <h1>Reservation </h1>
+        <div class="container">
+        <img src="../images/about-bg.jpg" alt="" width="100%" height="85%">
+        <form method="post" action="../Home.html">
+            <table class="table1" cellspacing="15">
+                <tr>
+                    <td colspan="3" > <b>Book a table</b></td>
+                    <td colspan="3" > <b>Contact Details</b></td>
+                </tr>
+                <tr>
+                    <td colspan="3" >
+                        <input type="date" name="Date"  size="50" >
+                    </td>
+                    <td colspan="3" >
+                        <input type="text" name="name"  size="20" placeholder="YourName" >
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" >
+                        <input type="time" name="time"  size="90" style="padding-right: 290;">
+                    </td>
+                    <td colspan="3" >
+                        <input type="email" name="email"  size="20" placeholder="YourEmail" >
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" >
+                        <select name="NO.Persons"  > 
+                            <option style="color: gray;">Number Person*</option> 
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                        </select>
+                    </td>
+                    <td colspan="3" >
+                        <input type="number" name="number"  size="20" placeholder="Your Number">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center"><input  class="buttton" type="submit" value="BOOK TABLE" ></td>
+                </tr>
+                </table>
+        </form>
+        </div>
+    </body>
+</html>

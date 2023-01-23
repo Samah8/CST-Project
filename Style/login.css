@@ -1,0 +1,29 @@
+h1{
+  text-align: center;
+  color:#ff3c00 ;
+  font-size: 40;
+  font-style: italic;
+  font-family:Comic sans MS;
+  padding-top: 10px;
+}
+.container{
+  position: relative;
+}
+.table{
+  position: absolute;
+  top: 8;
+  left: 33%;
+}
+input{
+  color: gray;
+  padding: 10px;
+}
+#login{
+  background-color: #ff3c00;
+  color: aliceblue;
+   border: none;
+}
+.icons{
+  border: none;
+  filter: drop-shadow(1px 1px 1px #ff3c00);
+}
